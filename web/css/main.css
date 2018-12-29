@@ -1,0 +1,63 @@
+/**{
+	padding: 0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}*/
+
+body{ overflow-x: hidden;  background-color: rgba(248, 248, 248, 1); }
+
+
+
+.navbar-inverse .navbar-fixed-top, .navbar{
+	display: none;  
+	background-color: rgba(34, 167, 240, 1); 
+	color: white; 
+	height: 0px; 
+}
+
+.section-loader{ height: 100px; width: 100%; background-color: white; position: absolute; left: 0; top: 0; }
+
+.status-loader{ height: 55px; width: 100%; margin: 25px 0px; position: absolute; left: 0; }
+
+.loader-pane{ height: 10px; width: 26.5%; background-color: rgba(238, 238, 238, 1); border-radius: 20px; margin: 20px 36.5%;}
+
+#status-progress{ height: 10px; width: 20px; background-color: rgba(34, 167, 240, 1); border-radius: 20px; transition: 2s;}
+
+.step-number-pane{ width: 75%; margin: 0px 32.5%; position: absolute; }
+
+.step-number{ height: 50px; width: 50px; background-color: white; font-size: 20px; display: inline-block; float: left; line-height: 45px;  text-align: center; border-radius: 100%;  margin: 0px 50px; border: 3px solid rgba(236, 236, 236, 1); overflow: hidden;}
+
+.step-number-two, .step-number-three{ margin-left: 60px; }
+
+#active-step{ border: 3px solid rgba(34, 167, 240, 1); }
+
+.section-content{ width: 100%; margin-top: 0px; display: none;}
+
+#section-content-active{ display: block; }
+
+.group-container{ width: 46%; margin: auto; }
+
+.create-group-pane{ width: 65%; margin: auto; margin-top: 40px; }
+
+.create-group-pane h3{ color: gray; text-align: center; padding: 20px 0px; }
+
+.btn-info{ width: 100%; margin-top: 10px; }
+
+textarea{ resize: none; }
+
+
+#next-btn{ margin: 20px 0px; }
+
+/*#login-prompt{ margin: 10px 80px; font-size: 12px;}*/
+
+/*.form-control{ border-style: none; border-bottom: 1px solid gray; background-color: transparent; }*/
+
+
+/*#success-icon{ height: 100px; width: 100px; background-color: rgba(50,230,50,1); border-radius: 100%; margin-left: 120px; margin-bottom: 20px;}*/
+
+.fa-check-circle{ font-size: 100px; color:  rgba(50,230,50,1);}
+
+
+.footer{ display: none; }

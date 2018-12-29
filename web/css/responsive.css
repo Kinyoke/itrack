@@ -1,0 +1,127 @@
+
+
+/* Small devices (phones, 600px and down) */
+@media only screen and (max-width: 690px) {
+    /*.create-pane-mobile{ display: block; }*/
+    /*.create-pane{ display: none; }*/
+    .create-pane-mobile{ display: block; }
+    .create-mobile-imgcover, .pledge-mobile-imgcover{ width: 100%; position: absolute; }
+    .create-group-profile{ display: none; }
+    .img-holder{ height: 300px; }
+    /* .intro h4, p{ padding: 5px 20px; } */
+    /* .intro-next h4, p{ padding: 5px 20px; } */
+    .form-entry{ margin: 50px 20px; }
+    #next_page_btn{ width: 100%; }
+    #create-group-btn{ width: 100%; }
+    .group-info-left, .group-info-right{ margin: 0px 20px; }
+    /*#form-check-inline-main{ display: none; }*/
+    /*.form-check-inline-mobile{ display: block; margin: 0px 15px;}*/
+
+    /*pledge*/
+    .pledge-left-tab{ margin: 0px 0px;}
+    .pladge-group-profile{ height: 300px; }
+    .amount-selected{ width: 31.7%; margin: 5px 0px; font-size: 11px;}
+    .pledge-intro{ margin-left: 15px; margin-top: 40px;}
+
+    .form-check-label{ margin-left: 20px; margin-bottom: 5px;}
+
+
+    /*edit group page*/
+    .edit-overview{ margin: auto; }
+    /*.edit-cancel-btn{ width: 1%; }*/
+    .edit-save-btn, .edit-cancel-btn{ width: 90%; margin: auto; margin-top: 20px; margin-bottom: 10px; }
+    .edit-g-type-right{ margin-left: 0;  float: right;  }
+    .mobile-cover{ display: block; }
+    .non-mobile-cover{ display: none; }
+    #Copyright-footer{ text-align: center; padding: 0px 15px;}
+    .back-btn{ display: none; }
+    .amount-selected{ margin-left: 7px; }
+    .pledge-pane-mobile{ display: block; }
+    .pledge-pane-lg{ display: none; }
+    .back-pledge-lg{ display: none; }
+    #make_pledge_btn{ width: 100%; }
+
+    .withdraw-pane{ width: 100%;}
+
+    .withdraw-card-main{ width: 100%; }
+
+    .card-top{ display: block; }
+
+    .card-right{ display: none; }
+
+    /*#navbar-side-ovely{ width: 15%; }*/
+
+    #closeNavSide{ top: 0; position: absolute; margin-top: -14%; margin-right: 30%; right: 0; }
+
+    .edit-delete-btn{ display: none; }
+
+    .edit-delete-btn-mobile{ display: block; }
+
+    #actionShare ul{ padding-left: 5%; }
+
+    #actionShare i{ padding-left: 7px; padding-top: 13px; font-size: 25px; }
+
+    /*.anonymous, .terms-mark{ margin-left: 25px; }*/
+
+    #Withdraw-v1, #Withdraw-vf2, #invite-member, #add-signatory-btn, #pay-with-cash-btn{ width: 91%; }
+
+    .navbar, .navbar-light, .border-bottom, .navbar-expand-lg{ position: relative; }
+
+    #stats-desktop-container{ display: none; }
+    
+    #stats-mobile-container{ display: block; }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+     .edit-save-btn, .edit-cancel-btn{ width: 90%; margin: auto; margin-top: 20px; margin-bottom: 10px; }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    /*#closeNavSide{ top: 0; position: absolute; margin-top: -13%; margin-right: 23%; right: 0; }*/
+   .edit-save-btn{ width: 10%; }
+   .edit-cancel-btn{ width: 10%; }
+    .edit-delete-btn{ display: none; }
+    .edit-delete-btn-mobile{ display: block; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     /*edit group page*/
+    /*.edit-overview{ margin-left: 240px; }*/
+
+    /*.edit-save-btn, .edit-cancel-btn{ width: 20%; margin-top: 20px; margin-bottom: 10px; }*/
+
+     /*.edit-cancel-btn{ margin-left: 0px; float: right;}*/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+     /*edit group page*/
+    /*.edit-overview{ margin: auto; }*/
+} 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1024px) {
+     /*edit group page*/
+     .navbar-side-header{ margin-bottom: 40px; }
+    .edit-overview{ margin-left: 0px; }
+    /*#closeNavSide{ top: 0; position: absolute; margin-top: -13%; margin-right: 33%; right: 0;}*/
+    .edit-save-btn{ width: 45%; }
+   .edit-cancel-btn{ width: 45%; }
+} 
+
+/* For landscape were browser window is wider than its height */
+@media only screen and (orientation: landscape) {
+     /*edit group page*/
+    .edit-overview{ margin-left: 0px; }
+
+    .edit-save-btn, .edit-cancel-btn{ width: 220px; height: 40px; margin-left: 15px;}
+
+    .edit-cancel-btn{ margin-left: 61px; }
+}
